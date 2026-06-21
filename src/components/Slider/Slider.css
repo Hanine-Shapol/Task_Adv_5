@@ -1,0 +1,56 @@
+.sliderTitle{
+    max-width: 435px;
+height: 102px;
+margin-bottom: 38px;
+}
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+.slider-viewport {
+    width: 980px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slider-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: max-content;
+}
+
+.card-wrapper {
+    width: 300px;
+    margin-right: 40px;
+    flex-shrink: 0;
+}
+
+.slider-dots {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 30px;
+}
+
+.dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 3px solid #8EADD5;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.dot.active {
+    background: #8EADD5;
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 992px) {
+    .slider-viewport {
+        width: 300px;
+    }
+}

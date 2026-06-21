@@ -1,0 +1,35 @@
+.MainSection{
+    padding-top: 136px;
+}
+.title{
+    color: #272D38;
+    font-size: 50px;
+}
+p{
+    color: #272D38;
+}
+.button{
+    width: 167px;
+    height: 48px;
+    background-color: #8EADD5 !important;
+}
+.background {
+    background-color: #F6F6F6;
+}
+.Image{
+    width: 450px;
+height: 450px;
+
+}
+@media screen and (max-width:992px) {
+    .heroAbout{
+    padding-top: 88px;
+}
+        .title{
+        font-size: 40px;
+    }
+    .Image{
+        width: 300px;
+        height: 300px;
+    }
+}

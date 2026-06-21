@@ -1,0 +1,9 @@
+.text{
+    margin-top: 157px;
+    color: #667085;
+}
+@media screen and (max-width:992px) {
+    .text{
+        margin-top: 120px;
+    }
+}

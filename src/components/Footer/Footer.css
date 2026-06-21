@@ -1,0 +1,22 @@
+.footer{
+    margin-top: 136px;
+    padding :150px 180px;
+    padding-bottom: 16px;
+    background-color: #F6F6F6;
+}
+.Lists{
+    gap: 160px;
+}
+.item{
+    color: #272D38;
+}
+@media screen and (max-width:992px) {
+    .footer{
+        margin-top: 124px;
+        padding :104px 119px;
+    padding-bottom: 16px;
+    }
+    .Lists{
+    gap: 72px;
+}
+}

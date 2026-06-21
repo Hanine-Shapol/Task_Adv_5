@@ -1,0 +1,14 @@
+.brands{
+    background-color: #F6F6F6;
+    padding: 20px 24px;
+}
+.brand{
+    width: 140px;
+height: 42px;
+}
+@media screen and (max-width:992px) {
+    .brand{
+        width: 70px;
+        height: 24px;
+    }
+}

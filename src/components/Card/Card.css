@@ -1,0 +1,12 @@
+.card{
+    background-color: #DEDCDB80 !important;
+    width: 100%;
+    height: 100%;
+}
+.img{
+    width: 130px;
+    height: 130px;
+}
+.textColor {
+            color: #272D38;
+}
